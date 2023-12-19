@@ -10,5 +10,10 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'todoapp';
+  welcome = 'Hola, esto es un componente';
+  tasks = [
+    'Instalar angular CLI',
+    'crear componentes',
+    'chupar poto',
+  ];
 }
